@@ -5,6 +5,8 @@ This is a Level 2 REST API. This is an authorization server for the HEAL ASU mHe
 2. Token endpoint.
 3. Validate endpoint.
 
+This project has been customized from the Apache Oltu implementation of https://github.com/hasanozgan/apache-oltu-oauth2-provider-demo
+
 # Required Dependencies :
 ```
 1. Maven

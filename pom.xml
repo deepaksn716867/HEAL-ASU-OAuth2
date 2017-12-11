@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.hasanozgan</groupId>
-  <artifactId>apache-oltu-oauth2-demo</artifactId>
+  <artifactId>apache-oltu-oauth2-demo</artifactId> <!-- This project has been customized from the apache oltu implementation-->
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>api-web Maven Webapp</name>
@@ -22,7 +22,7 @@
         <json-simple.version>1.1.1</json-simple.version>
         <jackson-databind.version>2.9.1</jackson-databind.version>
         <jersey-container-servlet-core.version>2.26</jersey-container-servlet-core.version>
-        
+
     </properties>
     <!--
     <repositories>
@@ -38,31 +38,31 @@
 
 	<dependencies>
 		<!-- <dependency>
-			<groupId>com.sun.jersey</groupId> 
+			<groupId>com.sun.jersey</groupId>
 			<groupId>org.glassfish.jersey.core</groupId>
 			<artifactId>jersey-server</artifactId>
 			<version>${jersey-server.version}</version>
 		</dependency>
-		
+
 		<dependency>
 	    		<groupId>com.fasterxml.jackson.core</groupId>
 	    		<artifactId>jackson-databind</artifactId>
 	    		<version>${jackson-databind.version}</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 			<scope>provided</scope>
 		</dependency>
-		
+
 		<dependency>
     			<groupId>org.glassfish.jersey.containers</groupId>
     			<artifactId>jersey-container-servlet</artifactId>
     			<version>${jersey-container-servlet-core.version}</version>
 	</dependency> -->
-	
+
 	<dependency>
 	    		<groupId>com.fasterxml.jackson.core</groupId>
 	    		<artifactId>jackson-databind</artifactId>
@@ -237,7 +237,7 @@
 
 	</dependencies>
   <build>
-        <finalName>apache-oltu-oauth2-demo</finalName>
+        <finalName>authorization-server</finalName>
 
         <plugins>
             <plugin>
@@ -254,7 +254,7 @@
                     </webApp>
                     <stopKey/>
                     <stopPort/>
-                  
+
                <executions>
                     <execution>
                         <id>start-jetty</id>

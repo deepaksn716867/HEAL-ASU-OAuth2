@@ -13,7 +13,7 @@ This is a Level 2 REST API. This is an authorization server for the HEAL ASU mHe
 4. Mysql DB
 ```
 
-# Loding Data / Seeding Data to Mongo DB.
+# Loding Data / Seeding Data to Mysql DB.
 Import intial data to Mysql DB from the sql folder of the project.
 ```
 command: create database promis_authorization_server
